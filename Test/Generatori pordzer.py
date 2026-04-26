@@ -1,0 +1,1 @@
+print(sorted([(int(a)*int(b),c)for a,b,c in[*map(str.split,open(0))][1:]])[-1][1])
