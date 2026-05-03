@@ -1,0 +1,5 @@
+my_name = input('What is your name? ')
+year_of_birth = input('What is your birth year? ')
+age = 2025 - int(year_of_birth)
+print(type(my_name), type(year_of_birth), type(age))
+print('Hello my name is: ', my_name, ', My age: ', age, sep='')
